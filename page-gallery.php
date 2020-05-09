@@ -2,7 +2,8 @@
     get_header();
 	while(have_posts())
 	{
-      the_post();
-      var_dump(parse_blocks(get_the_content()));
+        the_post();
+        echo get_post_gallery();
+        
   }
   get_footer();

@@ -56,6 +56,7 @@
 
     </div>
   </footer>
+
     <!-- Con wp_footer llevamos la barra de wordpress a la página -->
     <?php wp_footer(); ?>
     </body>
